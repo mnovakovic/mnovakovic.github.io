@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Welcome"
+date:   2022-02-22 12:09:40 -0800
+categories: thoughts
+---
+Hope this is the beginning of something magnificent.
+
+I'll try to use this blog to write out some of my thoughts and observations about my work, specifically around non-technical
+areas such as people, direction, communication and strategy.
+
+I am trying to get better at writting, and what a better way to force myself to write than to have a blog.
