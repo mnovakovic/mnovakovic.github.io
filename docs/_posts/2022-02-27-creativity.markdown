@@ -10,15 +10,15 @@ When I observe some of the people that I look up to, they never lack ideas on ho
 
 I always had issues with creative requirements of my work, even when it comes to tasks that seem less ambigous in nature, such as writing.
 For example, in my masters we often had to write essays and I had so much trouble getting started and writing out the first few sentences.
-I would easily get lost my in thoughts and would not know what direction to take. **I would often get stuck when I have to navigate uncertain situations.**
+I would easily get lost my in thoughts and would not know what direction to take. **I would often get stuck when trying to deal with uncertain situations.**
 
 <!-- Or at work, throw me into a new area that I have to learn a lot about, such as a gigantic codebase or a novel framework/library,
 or give me a complex problem to solve and I would find it hard to start.
 We could go into some serious psycho-analysis here, but for simplicity, I would say that this is me lacking the ability to deal with uncertain situations and lacking creativity.
 -->
 
-I blame it on math, as I was always a math person and was never into something creative like writing/music/acting where you constantly have to create something out of nothing.
-This is probably me generalizing the artists/writers too much but at least I imagine they operate.
+I blame it all on math, as I was always a math person and was never into something creative like writing/music/acting where you constantly have to create something out of nothing.
+This is probably me generalizing the creative types too much, but at least that's how I imagine they operate.
 
 <!--
 ## Real world is not like math
