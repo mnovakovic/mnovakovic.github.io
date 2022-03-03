@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Welcome"
+head-extra: favico.html
+title:  "Welcome to my blog"
 date:   2022-02-22 12:09:40 -0800
 categories: thoughts
 ---
