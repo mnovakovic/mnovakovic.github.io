@@ -23,7 +23,7 @@ I would add another abstraction layer, try to use another design pattern, add su
 another potential use case, and it was a never ending process.
 It was often frustrating as I would realize that the new potential future use case I was
 adding support for means I have to refactor everything from scratch.
-In other words - I spent so much time trying to solve problems what didn't even exits!
+In other words - I spent so much time trying to solve problems what didn't even exist!
 
 This resulted in overly complex code that didn't work well for the
 use cases the company needs, and I was way behind the schedule.
