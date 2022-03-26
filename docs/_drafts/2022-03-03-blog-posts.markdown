@@ -20,7 +20,7 @@ I have a couple of ideas on how to go further.
 - The importance of writing to sort out your thoughts
 - How letting go of having it your way can help both you and your peers
 - Talk about how reading a self help book or a blog post can help just by changing your perspective even though you thought it wouldn't help you
-- How I always struggled with "yet another refactor" to my own detriment and discovered that it's because I wasn't aware of what the requirements are and how the only thing that matters is that the customers are happy
 
 ## Implemented:
 - Talk about how to get unstuck by going into any direction. Creativity by trying a lot and having a lot of ideas. [On ambiguity and being stuck](/thoughts/2022/02/27/creativity.html)
+- How I always struggled with "yet another refactor" to my own detriment and discovered that it's because I wasn't aware of what the requirements are and how the only thing that matters is that the customers are happy
