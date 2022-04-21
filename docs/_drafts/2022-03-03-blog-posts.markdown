@@ -5,7 +5,7 @@ title:  "Potential Blog Posts"
 date:   2022-03-03 12:00:00 -0800
 categories: thoughts
 ---
-I have a couple of ideas on how to go further.
+I have a couple of ideas that could be converted to blog posts.
 
 ## Potential blog posts about my previous projects:
 - The post-concussion project that didn't have enought impact and how I should have done the research first instead of just doing what I was told.

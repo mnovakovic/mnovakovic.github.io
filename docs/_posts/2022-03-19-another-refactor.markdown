@@ -15,7 +15,8 @@ It's especially hard to understand this when you're just starting out.
 
 Early in my engineering career, I found [refactoring](https://martinfowler.com/books/refactoring.html) to be the most exciting type of work.
 I was given some code that was percieved terribly designed and I was going to make it so much better.
-Unfortunatelly, this massive improvement that I always hoped for rarely happened - I would often leave the code in a worse state than I found it and I didn't understand why.
+Unfortunatelly, this massive improvement that I always hoped for rarely happened - I would often leave the code
+in a worse state than I found it and I didn't understand why.
 
 I had this issue often during my first job. I would get excited about a refactoring task,
 but I would spend endless days changing and "improving" the code.
@@ -32,7 +33,7 @@ The lack of a justifiable answer is another issue that I'll write about later.
 
 ## Solution: optimize for the user and business needs
 
-It took me a while to realize that the solution couldn't be simpler: optimize for the user and business needs.
+It took me a while to realize that the solution couldn't be simpler: *optimize for the user and business needs*.
 I wish I knew this little trick back then.
 I was refactoring to support whatever potential use case I creatively came up with
 instead of making it solve the problems I was paid to solve.
@@ -51,6 +52,9 @@ brings to the business.
 That is a little unintuitive, as in school, as well in the first few years at work you're completely
 focused on the technology, code, not on the bigger picture that software fits in.
 
+I know some schools and computer science programs are incorporating this real-world and user-driven mindset
+in their curriculum, and that produces better engineers in my experience. I hope every school starts following those steps soon
+so students become much better prepared for the workforce.
 
 <!--
 ## More examples
