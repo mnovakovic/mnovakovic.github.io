@@ -9,7 +9,8 @@ head-extra: favico.html
 
 # Life of a Bay Area Dev
 
-My name is Marko Novakovic, and I am a software engineer at Meta (formerly Facebook).
-I live in the Bay Area. This blog reflects some of my thoughts and observations as I navigate the life of a software engineer in the silicon valley.
+My name is Marko, and I am a software engineer at Meta (formerly Facebook).
+I live in the Bay Area. This blog reflects some of my thoughts and observations as I navigate the
+life of a software engineer in the silicon valley.
 
 ---
