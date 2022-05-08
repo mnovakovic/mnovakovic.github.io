@@ -1,7 +1,7 @@
 ---
 layout: post
 head-extra: favico.html
-title:  "Assumptions In Inherited Projects"
+title:  "Document Your Assumptions"
 date:   2022-04-22 12:00:00 -0800
 categories: thoughts
 ---
@@ -10,7 +10,7 @@ categories: thoughts
 In this post, I'm talking about two projects that I inherited that ended up taking longer than expected
 due to undocumented assumptions and how I plan to address similar situations in the future.
 
-# Undocumented assumptions are bad
+# Undocumented assumptions lead to suboptimal results
 
 Assumptions are made often and for different reasons. For the sake of simplicity, I will divide them into **documented** and **undocumented** assumptions.
 In this context, assumptions being documented means that they are explicitly stated in a place that people refer to for project guidance, such as a [design doc](https://www.joelonsoftware.com/2000/10/02/painless-functional-specifications-part-1-why-bother/).
