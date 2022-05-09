@@ -15,6 +15,7 @@ https://medium.com/@mrabkin
 https://noidea.dog/blog
 https://noidea.dog/glue
 http://www.paulgraham.com/articles.html
+https://medium.com/@kentbeck_7670
 
 Book: https://noidea.dog/staff
 
