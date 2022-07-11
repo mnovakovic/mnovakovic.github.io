@@ -1,0 +1,61 @@
+---
+layout: post
+head-extra: favico.html
+title:  "Setting Goals"
+date:   2022-07-02 00:00:00 -0000
+categories: thoughts
+---
+
+I was never good at setting goals, but I was somehow able to trick myself into believing that I didn't need that skill set, so I never even tried to get better at it.
+Over time it started becoming obvious that it is a must-have skillset, so I recently started writing the goals for my career planning and found it surprisingly challenging.
+
+
+In this post, I'll describe my thinking about goals in general, what makes them challenging and how I plan to get better at setting them. 
+I also hope to make a follow-up post in a few months and see if I got more comfortable with goals and perhaps even found them helpful.
+
+## Why do we need goals?
+
+There are so many reasons to use goals; these are just some that I can see relevant to my situation.
+
+**Easier to share and think about them if done well.** 
+Higher-level abstractions are good, as humans can't really keep a million things in their heads and reason about them at the same time. Having a simple goal that is a high-level abstraction makes it easy to agree on it with other people and makes it easy to plan how to achieve it. The details of any job or a task can be too overwhelming, but if we keep thinking about how it fits the larger goals, it makes it so much easier to not get lost in the details.
+
+
+**Work requirements.** 
+For example, my company uses the OKR planning process every half, and everything we work on is documented via Objectives (which are essentially goals). Being good at thinking in terms of goals is a valuable skill at work for everyone. For people on higher levels, it is required to be comfortable and skilled at setting goals. Can you imagine a Director who oversees 50 people but operates without goals? Even if you're not a director, a mentor told me that the most important thing for a promotion is to have a promo document that outlines why you deserve a promotion in terms of goals - planned and accomplished. Effective communication requires simplicity, and goals are simple (if done well). 
+
+
+**Successful people do it.** 
+People I admire and look up to use goals for their career planning and the projects they work on, and they seem very comfortable with them. It is after all needed for the regular OKR planning that happens twice a year.
+
+
+## Why is writing good goals challenging?
+
+Goals might be easy to come up with, but they have to be both ambitious as well as achievable. For example, "I want to become a trillionaire next month" is an ambitious goal, but it is impossible to reach. A good goal needs to be achievable and possible to break down into actionable items that would lead to its completion. 
+
+The goals need to be such that if you complete them, they achieve something useful and relevant to either you or the team/company. For example, if you want to build muscles and set the goal "drink one protein shake a day," it seems relevant as proteins are needed to build muscle, but such a goal is not very useful because on their own, protein shakes won't do much - you still need to go to the gym.
+
+To give you a more concrete example, I'll use my personal story - as I mentioned above, I started writing my personal career goals recently and found the process super challenging. To be any good, my personal career goals need to satisfy all these constraints:
+- *Match expectations of my current level.* My company has a list of expectations for every level, there's plenty of them and they are super vague. Wrapping your head around those goals and mapping to your personal goals is not an easy task.
+- *Incorporate elements from the next level.* This is always good for "bonus points", but the issue is the same as with current level expectations, with a caveat that these need to be only a small subset since you still have to operate on your current level.
+- *Map to the work I will be doing in the future (mostly next half).* This is the most challenging part in my experience, mainly because it's very hard to know the nature of work in the next few months, as things are constantly changing. For example, if I want to get better at communication with PMs, how would I even know if my work during the next half will have those opportunities? Every project has phases, and at some point, all that is left is a lot of technical work, which leaves no room for almost any PM-level collaboration. 
+- *Be generic enough to be easy to understand by managers and peers.* This is a must if I want to share the goals and ask for feedback (which I always do), but it adds another layer of complexity.
+- *Match your personal preferences.* There are multiple ways to accomplish success, but it is very beneficial to understand what you're comfortable with. Some people might not be comfortable giving public presentations, for example, so it makes sense to make goals that don't depend on doing things that you're not comfortable with.
+
+Hope that it's obvious that incorporating all of these constraints is pretty complicated. I can't say that I have become an expert at this, but I think I have started making progress in the past few months. What did I do to make it easier?
+
+<!-- SMART GOALS? -->
+
+## My approach - fake it till you make it
+
+If I could summarize what helped me, it would be to keep trying on a regular basis despite all the complications, and it should start getting easier over time.
+
+**I set an hour every week to think about all of the aspects required for setting good goals.** There are many things to juggle, and just spending time thinking about it on a regular basis helps. For example, I start the session by reading expectations for my level and the level above, and I start internalizing them. Over a couple of weeks, it became much easier and more natural to reason about it. Then I'd take the feedback I got from other people, and I'd try to come up with anything that addresses the feedback and the expectations for the levels. It was very hard in the beginning, but a few weeks later it became easier, and I just became more comfortable doing it.
+
+When you spend more time on something, you start noticing details that you haven't noticed before, and it makes it easier to create the action items. For example, if I want to get better at communication, are there different types of communication I want to get better at? Is it the conversation with other engineers, PMs, or Managers? If it's with other engineers, is it with engineers in my team or other teams? Each of these are very different, and understanding the different categories helps a lot. The best way to understand how a problem separates into different categories is to think about it often.
+
+A similar approach can be taken for the mapping of personal goals and your projects. For example, if I understand that I need to get better at communication with PMs, I would write a goal that states that. That should make it easier to communicate it with my manager and to make sure that I get the projects for the next half that require communicating with PMs.
+
+
+
+
