@@ -6,8 +6,8 @@ date:   2022-07-02 00:00:00 -0000
 categories: thoughts
 ---
 
-I was never good at setting goals, but I was somehow able to trick myself into believing that I didn't need that skill set, so I never even tried to get better at it.
-Over time it started becoming obvious that it is a must-have skillset, so I recently started writing the goals for my career planning and found it surprisingly challenging.
+I was never good at setting goals since I thought that a software engineer doesn't need to set goals, so I never even tried to get better at it.
+Over time it started becoming obvious that it is a must-have skillset, so I recently started setting career and project goals as a part of my career planning and found it surprisingly challenging.
 
 
 In this post, I'll describe my thinking about goals in general, what makes them challenging and how I plan to get better at setting them. 
@@ -18,7 +18,7 @@ I also hope to make a follow-up post in a few months and see if I got more comfo
 There are so many reasons to use goals; these are just some that I can see relevant to my situation.
 
 **Easier to share and think about them if done well.** 
-Higher-level abstractions are good, as humans can't really keep a million things in their heads and reason about them at the same time. Having a simple goal that is a high-level abstraction makes it easy to agree on it with other people and makes it easy to plan how to achieve it. The details of any job or a task can be too overwhelming, but if we keep thinking about how it fits the larger goals, it makes it so much easier to not get lost in the details.
+Higher-level abstractions are good, as humans can't really keep a million things in their minds and reason about them at the same time. Having a simple goal that is a high-level abstraction makes it easy to agree on it with other people and makes it easy to plan how to achieve it. The details of any job or a task can be too overwhelming, but if we keep thinking about how it fits the larger goals, it makes it so much easier to not get lost in the details.
 
 
 **Work requirements.** 
@@ -31,13 +31,13 @@ People I admire and look up to use goals for their career planning and the proje
 
 ## Why is writing good goals challenging?
 
-Goals might be easy to come up with, but they have to be both ambitious as well as achievable. For example, "I want to become a trillionaire next month" is an ambitious goal, but it is impossible to reach. A good goal needs to be achievable and possible to break down into actionable items that would lead to its completion. 
+Goals might be easy to come up with, but they have to be both ambitious as well as achievable. For example, "I want to become a trillionaire next month" is an ambitious goal, but it is impossible to reach (hi there Jeff Bezos). A good goal needs to be achievable and possible to break down into actionable items that would lead to its completion. 
 
 The goals need to be such that if you complete them, they achieve something useful and relevant to either you or the team/company. For example, if you want to build muscles and set the goal "drink one protein shake a day," it seems relevant as proteins are needed to build muscle, but such a goal is not very useful because on their own, protein shakes won't do much - you still need to go to the gym.
 
 To give you a more concrete example, I'll use my personal story - as I mentioned above, I started writing my personal career goals recently and found the process super challenging. To be any good, my personal career goals need to satisfy all these constraints:
 - *Match expectations of my current level.* My company has a list of expectations for every level, there's plenty of them and they are super vague. Wrapping your head around those goals and mapping to your personal goals is not an easy task.
-- *Incorporate elements from the next level.* This is always good for "bonus points", but the issue is the same as with current level expectations, with a caveat that these need to be only a small subset since you still have to operate on your current level.
+- *Incorporate elements from the next level.* This is always good for "bonus points", but the issue is the same as with current level expectations, with a caveat that these need to be only a small subset since you still have to operate at your current level.
 - *Map to the work I will be doing in the future (mostly next half).* This is the most challenging part in my experience, mainly because it's very hard to know the nature of work in the next few months, as things are constantly changing. For example, if I want to get better at communication with PMs, how would I even know if my work during the next half will have those opportunities? Every project has phases, and at some point, all that is left is a lot of technical work, which leaves no room for almost any PM-level collaboration. 
 - *Be generic enough to be easy to understand by managers and peers.* This is a must if I want to share the goals and ask for feedback (which I always do), but it adds another layer of complexity.
 - *Match your personal preferences.* There are multiple ways to accomplish success, but it is very beneficial to understand what you're comfortable with. Some people might not be comfortable giving public presentations, for example, so it makes sense to make goals that don't depend on doing things that you're not comfortable with.
@@ -57,5 +57,7 @@ When you spend more time on something, you start noticing details that you haven
 A similar approach can be taken for the mapping of personal goals and your projects. For example, if I understand that I need to get better at communication with PMs, I would write a goal that states that. That should make it easier to communicate it with my manager and to make sure that I get the projects for the next half that require communicating with PMs.
 
 
+## Conclusions
 
+Being comfortable with setting goals and thinking in terms of goals is a valuable skillset and everyone would benefit from getting better at it. My goal is to improve this aspect and I started working on it, and I hope that in the next 6-12 months I will be much more comfortable with goals - we'll see!
 
