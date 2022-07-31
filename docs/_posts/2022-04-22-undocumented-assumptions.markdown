@@ -16,15 +16,6 @@ Assumptions are made often and for different reasons. For the sake of simplicity
 In this context, assumptions being documented means that they are explicitly stated in a place that people refer to for project guidance, such as a [design doc](https://www.joelonsoftware.com/2000/10/02/painless-functional-specifications-part-1-why-bother/).
 **The undocumented assumptions cause more issues because we're more likely to overlook them.**
 
-<!--
-For example, let's say we are planning a project, but we don't know if we can cover the costs.
-If we document the assumption that we can cover the costs, it'll make it easier to question that
-assumption as the project unfolds and we start suspecting that we can't cover the costs.
-In the worst case, we will stop the project early and save us both time and money.
-If the cost assumption isn't documented, we might not question it and risk wasting more
-time and money on a project that we can't fund.
--->
-
 Every project has both types of assumptions, and it is important to be aware of that.
 Putting efforts into converting the implicit assumptions into explicit ones can help us prevent
 failures and find more places to look at for root causes if something goes wrong.
