@@ -4,6 +4,7 @@ head-extra: favico.html
 title:  "You don't need to be right"
 date:   2022-06-03 00:00:00 -0000
 categories: thoughts
+tags: self-improvement, communication 
 ---
 
 Most people would associate being wrong with something negative, and there is a lot of truth to that.

@@ -4,6 +4,7 @@ head-extra: favico.html
 title:  "Document your assumptions"
 date:   2022-04-22 12:00:00 -0800
 categories: thoughts
+tags: observations, assumptions
 ---
 
 
