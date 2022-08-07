@@ -1,9 +1,10 @@
 ---
 layout: post
 head-extra: favico.html
-title:  "Building habits"
-date:   2022-07-16 12:00:00 -0800
+title: "Building habits"
+date: 2022-07-16 12:00:00 -0800
 categories: thoughts
+tags: habits self-improvement
 ---
 
 Sometimes a book or a movie makes the whole nation rethink the basic concepts, and I believe James Clear managed to do with his book [Atomic Habits](https://jamesclear.com/atomic-habits). 
@@ -35,21 +36,11 @@ There are two ideas the book mentions that I found very useful:
 
 ## Benefits of habits accumulate
 
-In the book, James talks about the French cycling team getting better by a tiny bit in many different ways, which accumulated over time and helped them dominate the sport. Another idea is to get better by one percent a day over a hundred days and it will result in almost three times increase.
+One of the points the book is trying to make is that habit building can be potentially very powerful if applied many times over, even on little things, since the benefits accumulate. In the book, James talks about the French cycling team getting better by a tiny bit in many different ways, which accumulated over time and helped them dominate the sport.
 
-The point the book is trying to make is that habit building can be potentially very powerful if applied many times over, even on little things, since the benefits accumulate. Once formed, the habits would stay and we can move on to a different habit, while reaping the benefits from the previously formed ones.
+Once formed, the habits would stay and we can move on to a different habit, while reaping the benefits from the previously formed ones.
 
-This is objectively true - 
+I personally think the upper limit of the accumulted benefits is not as high or easy to reach as the book suggests - it takes a long time to form a habit, and it takes mental effort to continue forcing it while it's built, meaning you can only work on so many habits at a time. And I also noticed that newly formed habits are fragile and it's easy to slip. Arguably that means they aren't formed, but then it just means it takes even longer to form them. If it takes six or more months to form a habit, how long would it take to start reaping accumulated benefits? 
 
-## But how much can they accumulate?
-
-I think the upper limit of the accumulted benefits is not as big as the book suggests, but building habits is worth investing in on a continuous basis.
-
-It takes a long time to form a habit, and it takes mental effort to continue forcing it while it's built, meaning you can only work on so many habits at a time. And I also noticed that newly formed habits are fragile and it's easy to slip. Arguably that means they aren't formed, but then it just means it takes even longer to form them. If it takes six or more months to form a habit, how long would it take to start reaping accumulated benefits? Probably still worth doing it, but the overall benefits are limited.
-
-Perhaps a little more pragmatic approach would make sense in practice.
-
-I know that I need to get better at setting and using goals, I need to get better at writing and at breaking down the projects into smaller chunks. 
-
-I set aside some time each week to deliberately practice all of these and so far I am at least getting more comfortable at them, and I believe I'll get better with time. As for creating this a superpower, let's see how it goes, but I will keep my excitement at bay :) 
+Is building habits still worth doing? Without a doubt! I'm definitely doing it and will report back how effective it is soon.
 
