@@ -4,7 +4,7 @@ head-extra: favico.html
 title:  "On ambiguity and being stuck"
 date:   2022-02-27 12:00:00 -0800
 categories: thoughts
-tags: self-improvement, ambiguity
+tags: self-improvement ambiguity
 ---
 Senior engineers are expected to navigate uncertain situations and always be ready to come up with new solutions to the team's problems.
 As seniority grows, so does the level of uncertainty and ambiguity.

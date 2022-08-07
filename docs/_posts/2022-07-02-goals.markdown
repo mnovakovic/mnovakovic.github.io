@@ -4,7 +4,7 @@ head-extra: favico.html
 title:  "Setting Goals"
 date:   2022-07-02 00:00:00 -0000
 categories: thoughts
-tags: self-improvement, goals
+tags: self-improvement goals
 ---
 
 I was never good at setting goals since I thought that a software engineer doesn't need to set goals, so I never even tried to get better at it.
