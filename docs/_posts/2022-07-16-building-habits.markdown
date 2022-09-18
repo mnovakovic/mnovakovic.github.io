@@ -2,7 +2,7 @@
 layout: post
 head-extra: favico.html
 title: "Building habits"
-date: 2022-07-16 12:00:00 -0800
+date: 2022-07-16 00:00:00 -0800
 categories: thoughts
 tags: habits self-improvement
 ---

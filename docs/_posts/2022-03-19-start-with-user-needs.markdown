@@ -2,7 +2,7 @@
 layout: post
 head-extra: favico.html
 title:  "Start with the user and business needs"
-date:   2022-03-18 12:00:00 -0800
+date:   2022-03-18 00:00:00 -0800
 categories: thoughts
 tags: self-improvement observations business
 ---

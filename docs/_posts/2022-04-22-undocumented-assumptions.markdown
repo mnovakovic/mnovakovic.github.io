@@ -2,7 +2,7 @@
 layout: post
 head-extra: favico.html
 title:  "Document your assumptions"
-date:   2022-04-22 12:00:00 -0800
+date:   2022-04-22 00:00:00 -0800
 categories: thoughts
 tags: observations assumptions
 ---

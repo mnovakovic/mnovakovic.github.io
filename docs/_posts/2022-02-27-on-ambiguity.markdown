@@ -2,7 +2,7 @@
 layout: post
 head-extra: favico.html
 title:  "On ambiguity and being stuck"
-date:   2022-02-27 12:00:00 -0800
+date:   2022-02-27 00:00:00 -0800
 categories: thoughts
 tags: self-improvement ambiguity
 ---
