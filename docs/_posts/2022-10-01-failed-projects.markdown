@@ -12,7 +12,7 @@ I was lucky enough to avoid this process for a long time since the teams I worke
 
 Eventually, though, I had to create a project out of nothing, and it was hard. 
 
-Luckily the project was relatively successful - the feature I thought of and implemented ended up being used in another org-wide tool. However, the whole process and timelines were suboptimal, and I am sharing what happened and how I think I should make the same process better next time.
+Luckily I was relatively successful - the feature I thought of and implemented ended up being used in another org-wide tool. However, the whole process and timelines were suboptimal, and I am sharing what happened and how I think I should make the same process better next time.
 
 ## I did many things wrong
 
