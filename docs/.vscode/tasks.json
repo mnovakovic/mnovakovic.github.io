@@ -6,12 +6,12 @@
         {
             "label": "Jekyll start-server with drafts",
             "type": "shell",
-            "command": "bundle exec jekyll serve --drafts"
+            "command": "export PATH=${env:HOME}/homebrew/opt/ruby/bin:${env:HOME}/homebrew/lib/ruby/gems/3.1.0/bin:$PATH ; bundle exec jekyll serve --drafts"
         },
         {
             "label": "Jekyll start-server no drafts",
             "type": "shell",
-            "command": "bundle exec jekyll serve"
+            "command": "export PATH=${env:HOME}/homebrew/opt/ruby/bin:${env:HOME}/homebrew/lib/ruby/gems/3.1.0/bin:$PATH ; bundle exec jekyll serve"
         }
     ]
 }
