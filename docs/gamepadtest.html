@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Gamepad API Example</title>
+<style>
+  body {
+    background-color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding-top: 100px;
+  }
+</style>
+</head>
+<body>
+<h1>Press a button on your gamepad</h1>
+<script>
+  let gamepadConnected = false;
+  function handleGamepad() {
+    const gamepads = navigator.getGamepads();
+    if (!gamepads[0]) return;
+    const buttonPressed = gamepads[0].buttons.some(button => button.pressed);
+    if (buttonPressed) {
+      document.body.style.backgroundColor = "black";
+    } else {
+      document.body.style.backgroundColor = "white";
+    }
+    requestAnimationFrame(handleGamepad);
+  }
+  window.addEventListener("gamepadconnected", (event) => {
+    gamepadConnected = true;
+    handleGamepad();
+  });
+  window.addEventListener("gamepaddisconnected", (event) => {
+    gamepadConnected = false;
+    document.body.style.backgroundColor = "white";
+  });
+</script>
+</body>
+</html>
