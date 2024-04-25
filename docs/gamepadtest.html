@@ -14,26 +14,30 @@
 </head>
 <body>
 <h1>Press a button on your gamepad</h1>
-<a href="https://www.xbox.com/en-US/play/?offering.id=METAQUEST\&user.region=westus2">Open XBox offering</a>
+<p><a href="https://www.xbox.com/en-US/play?offering.id=METAQUEST&user.region=westus&session.configuration.video.showStreamStatisticsOverlay=true&session.configuration.options.systemUpdateGroup=SELFHOST">Open XBox offering with fix</a></p>
+<p><a href="https://www.xbox.com/en-US/play?offering.id=METAQUEST&user.region=westus&session.configuration.video.showStreamStatisticsOverlay=true">Open XBox offering old</a></p>
 <script>
-  let gamepadConnected = false;
   function handleGamepad() {
     const gamepads = navigator.getGamepads();
-    if (!gamepads[0]) return;
-    const buttonPressed = gamepads[0].buttons.some(button => button.pressed);
-    if (buttonPressed) {
-      document.body.style.backgroundColor = "black";
-    } else {
-      document.body.style.backgroundColor = "white";
+    buttonPressed = false;
+    for (i = 0; i < gamepads.length; i++) {
+      gamepad = gamepads[i];
+      if (gamepad != null && gamepad.id.includes('GAMEPAD')) {
+        buttonPressed = buttonPressed || gamepad.buttons.some(button => button.pressed);
+      }
+      if (buttonPressed) {
+          document.body.style.backgroundColor = "black";
+      } else {
+          document.body.style.backgroundColor = "white";
+      }
     }
-    requestAnimationFrame(handleGamepad);
+    // xbox is doing 4ms intervals too
+    setTimeout(handleGamepad, 4);
   }
   window.addEventListener("gamepadconnected", (event) => {
-    gamepadConnected = true;
     handleGamepad();
   });
   window.addEventListener("gamepaddisconnected", (event) => {
-    gamepadConnected = false;
     document.body.style.backgroundColor = "white";
   });
 </script>
