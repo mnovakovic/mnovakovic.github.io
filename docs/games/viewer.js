@@ -1,15 +1,16 @@
 const img = document.getElementById("randomImage");
-const button = document.getElementById("nextButton");
+const hintLabel = document.getElementById("hintLabel");
 
 let currentIndex = Math.floor(Math.random() * images.length);
 let preloadedImage = new Image();
+let hintLevel = 0; // 0 = no hint, 1 = firstLetter, 2 = firstTwoLetters
 
 // ---------------------------
 // Image Preloading
 // ---------------------------
 function preloadNext(index) {
   const nextIndex = (index + 1) % images.length;
-  preloadedImage.src = images[nextIndex];
+  preloadedImage.src = images[nextIndex].path;
 }
 
 // ---------------------------
@@ -17,10 +18,13 @@ function preloadNext(index) {
 // ---------------------------
 function showImage(index) {
   img.classList.add("fade-out");
+  hintLabel.classList.remove("visible");
+  hintLevel = 0;
 
   setTimeout(() => {
     currentIndex = index;
-    img.src = images[currentIndex];
+    img.src = images[currentIndex].path;
+    hintLabel.textContent = "";
 
     img.onload = () => {
       img.classList.remove("fade-out");
@@ -30,7 +34,19 @@ function showImage(index) {
 }
 
 function nextImage() {
-  showImage((currentIndex + 1) % images.length);
+  if (hintLevel === 0) {
+    // First press: show firstLetter
+    hintLabel.textContent = images[currentIndex].firstLetter;
+    hintLabel.classList.add("visible");
+    hintLevel = 1;
+  } else if (hintLevel === 1) {
+    // Second press: show firstTwoLetters
+    hintLabel.textContent = images[currentIndex].firstTwoLetters;
+    hintLevel = 2;
+  } else {
+    // Third press: navigate to next image
+    showImage((currentIndex + 1) % images.length);
+  }
 }
 
 function previousImage() {
@@ -38,10 +54,8 @@ function previousImage() {
 }
 
 // Initial load
-img.src = images[currentIndex];
+img.src = images[currentIndex].path;
 preloadNext(currentIndex);
-
-button.addEventListener("click", nextImage);
 
 // ---------------------------
 // Keyboard Navigation
