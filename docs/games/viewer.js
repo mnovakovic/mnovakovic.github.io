@@ -1,7 +1,20 @@
 const img = document.getElementById("randomImage");
 const hintLabel = document.getElementById("hintLabel");
 
-let currentIndex = Math.floor(Math.random() * images.length);
+// ---------------------------
+// Shuffle images array (Fisher-Yates algorithm)
+// ---------------------------
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
+shuffleArray(images);
+
+let currentIndex = 0;
 let preloadedImage = new Image();
 let hintLevel = 0; // 0 = no hint, 1 = firstLetter, 2 = firstTwoLetters
 
