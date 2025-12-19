@@ -32,9 +32,15 @@ with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         # Get first letter and first two letters
         first_letter = filename[0] if len(filename) >= 1 else ""
         first_two_letters = filename[:2] if len(filename) >= 2 else filename
+        whole_word = filename
+        if " " in filename:
+            whole_word = filename.split(" ")[0]
+        if any(char.isdigit() for char in whole_word):
+            whole_word = "".join(char for char in whole_word if not char.isdigit())
+        # END: if the whole word has a number in it, remove the number
         
         # Write the dictionary entry
-        f.write(f'    {{ path: "images/{image}", firstLetter: "{first_letter}", firstTwoLetters: "{first_two_letters}" }},\n')
+        f.write(f'    {{ path: "images/{image}", firstLetter: "{first_letter}", firstTwoLetters: "{first_two_letters}", wholeWord: "{whole_word}" }},\n')
     
     f.write("  ];\n")
     f.write("\n")

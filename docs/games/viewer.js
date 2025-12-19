@@ -27,6 +27,22 @@ function preloadNext(index) {
 }
 
 // ---------------------------
+// Helper function to update hint display
+// ---------------------------
+function updateHintDisplay(hintText) {
+  const showWholeWord = document.getElementById("showWholeWord").checked;
+  const wholeWord = images[currentIndex].wholeWord;
+  
+  if (showWholeWord && wholeWord) {
+    // Show hint in normal color and the rest in light gray
+    const remaining = wholeWord.substring(hintText.length);
+    hintLabel.innerHTML = `${hintText}<span style="color: #d0d0d0;">${remaining}</span>`;
+  } else {
+    hintLabel.textContent = hintText;
+  }
+}
+
+// ---------------------------
 // Image Change Logic
 // ---------------------------
 function showImage(index) {
@@ -51,13 +67,13 @@ function nextImage() {
   
   if (hintLevel === 0) {
     // First press: show firstLetter
-    hintLabel.textContent = images[currentIndex].firstLetter;
+    updateHintDisplay(images[currentIndex].firstLetter);
     hintLabel.classList.add("visible");
     hintLevel = 1;
   } else if (hintLevel === 1) {
     if (useSecondLetter) {
       // Second press with checkbox enabled: show firstTwoLetters
-      hintLabel.textContent = images[currentIndex].firstTwoLetters;
+      updateHintDisplay(images[currentIndex].firstTwoLetters);
       hintLevel = 2;
     } else {
       // Second press without checkbox: navigate to next image
@@ -76,6 +92,23 @@ function previousImage() {
 // Initial load
 img.src = images[currentIndex].path;
 preloadNext(currentIndex);
+
+// ---------------------------
+// Show whole word checkbox listener
+// ---------------------------
+document.addEventListener("DOMContentLoaded", () => {
+  const showWholeWordCheckbox = document.getElementById("showWholeWord");
+  if (showWholeWordCheckbox) {
+    showWholeWordCheckbox.addEventListener("change", () => {
+      // Update the current hint display when checkbox changes
+      if (hintLevel === 1) {
+        updateHintDisplay(images[currentIndex].firstLetter);
+      } else if (hintLevel === 2) {
+        updateHintDisplay(images[currentIndex].firstTwoLetters);
+      }
+    });
+  }
+});
 
 // ---------------------------
 // Keyboard Navigation
