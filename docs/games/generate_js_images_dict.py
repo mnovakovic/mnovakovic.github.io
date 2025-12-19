@@ -1,8 +1,8 @@
 import os
 
 # ===== CONFIG =====
-IMAGE_FOLDER = "./images"
-OUTPUT_FILE = "./images.js"
+IMAGE_FOLDER = os.path.join(os.path.dirname(__file__), "images")
+OUTPUT_FILE = os.path.join(os.path.dirname(__file__), "images.js")
 VALID_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp", ".gif"}
 # ==================
 

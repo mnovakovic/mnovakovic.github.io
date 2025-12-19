@@ -47,17 +47,24 @@ function showImage(index) {
 }
 
 function nextImage() {
+  const useSecondLetter = document.getElementById("useSecondLetter").checked;
+  
   if (hintLevel === 0) {
     // First press: show firstLetter
     hintLabel.textContent = images[currentIndex].firstLetter;
     hintLabel.classList.add("visible");
     hintLevel = 1;
   } else if (hintLevel === 1) {
-    // Second press: show firstTwoLetters
-    hintLabel.textContent = images[currentIndex].firstTwoLetters;
-    hintLevel = 2;
+    if (useSecondLetter) {
+      // Second press with checkbox enabled: show firstTwoLetters
+      hintLabel.textContent = images[currentIndex].firstTwoLetters;
+      hintLevel = 2;
+    } else {
+      // Second press without checkbox: navigate to next image
+      showImage((currentIndex + 1) % images.length);
+    }
   } else {
-    // Third press: navigate to next image
+    // Third press (only reachable if useSecondLetter was enabled): navigate to next image
     showImage((currentIndex + 1) % images.length);
   }
 }
